@@ -1,0 +1,243 @@
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    flex-direction: row;
+    padding: 0 px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+body {
+    font-family: Inter;
+    background-color: #191621;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 71px;
+    flex-shrink: 0;
+}
+
+.header-logo {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header-logoimg {
+    width: 50 px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: large;
+}
+
+
+
+.button {
+    background-color: #8645E8;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    transition: 0.3s;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 1020px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('assets/background.jpg');
+  background-size:cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+}
+
+.landing__title {
+    text-align: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.landing__title--highlight {
+    color: #ffdc14; 
+}
+
+.landing__text {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.comp-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.sort-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.song-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.song-list-table{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.song-list-table-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.song-list-header{
+    color: #a428ec;
+    border-bottom: 1px solid #5a0f64;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.song-list-row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about-me-devider{
+    width: 1px;
+    height: 40px;
+    background-color: #544F69;
+    margin: 0 10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-label{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d506ff80;
+}
+
